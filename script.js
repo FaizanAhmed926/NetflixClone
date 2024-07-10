@@ -1,0 +1,49 @@
+let div=document.getElementsByClassName("second-last-content");
+let d=document.getElementsByClassName("second-last-question");
+let c=1;
+d[0].addEventListener("click",()=>{
+    if(c%2==0)
+    {
+        div[0].style.display="none";
+    }
+else
+{
+    div[0].style.display="block";
+}
+c++;
+})
+d[1].addEventListener("click",()=>{
+    if(c%2==0)
+    div[1].style.display="none";
+else
+  div[1].style.display="block";
+c++;
+})
+d[2].addEventListener("click",()=>{
+    if(c%2==0)
+    div[2].style.display="none";
+else
+  div[2].style.display="block";
+c++;
+})
+d[3].addEventListener("click",()=>{
+    if(c%2==0)
+    div[3].style.display="none";
+else
+  div[3].style.display="block";
+c++;
+})
+d[4].addEventListener("click",()=>{
+    if(c%2==0)
+    div[4].style.display="none";
+else
+  div[4].style.display="block";
+c++;
+})
+d[5].addEventListener("click",()=>{
+    if(c%2==0)
+    div[5].style.display="none";
+else
+  div[5].style.display="block";
+c++;
+})
